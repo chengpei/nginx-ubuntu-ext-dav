@@ -10,7 +10,6 @@ apt install -y nginx-extras
 # 解决方案
 最后决定干脆不修改官方的镜像的，基于ubuntu镜像、nginx源码以及nginx-dav-ext-module模块定制一个景象，之所以选择ubuntu是因为我在虚拟机上编译成功了，所以应该不会有什么问题，无非就是最终构建出来的镜像比较大，自己用也无所谓了。
 # 源码
-[https://github.com/chengpei/nginx-ubuntu-ext-dav](https://github.com/chengpei/nginx-ubuntu-ext-dav)
 其中nginx-1.26.2.tar.gz 是下载的nginx源码，然后在其中增加了nginx-dav-ext-module模块的源码压缩放一起的，你也可以自己下载需要的版本进行替换
 nginx源码：[https://github.com/nginx/nginx](https://github.com/nginx/nginx)
 dav-ext源码：[https://github.com/arut/nginx-dav-ext-module](https://github.com/arut/nginx-dav-ext-module)
